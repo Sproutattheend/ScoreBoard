@@ -1,0 +1,31 @@
+<html>
+<head>
+<link rel="stylesheet" href="index.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Orbitron:wght@500;800&family=Russo+One&display=swap" rel="stylesheet">"
+    </head>
+    <body>
+        <div class="container">
+            <div class="half-board">
+                <h3>HOME</h3>
+                <div class="score" id="scoreHome">0</div>
+                <div class="point-container">
+                    <button class="increase" onclick="onePointHm()">+1</button>
+                    <button class="increase" onclick="twoPointHm()">+2</button>
+                    <button class="increase" onclick="threePointHm()">+3</button>
+                </div>
+            </div>
+            <div class="half-board">
+                <h3>GUEST</h3>
+                <div class="score" id="scoreGuest">0</div>
+                <div class="point-container">
+                    <button class="increase" onclick="onePointGst()">+1</button>
+                    <button class="increase" onclick="twoPointGst()">+2</button>
+                    <button class="increase" onclick="threePointGst()">+3</button>
+                </div>
+            </div>
+        </div>        
+        <script src="index.js"></script>
+    </body>
+</html>
